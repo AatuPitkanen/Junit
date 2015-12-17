@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Ade" name="sample.UtilsJUnit3Test" skipped="0" tests="3" time="1.076" timestamp="2015-12-17T13:32:41">
+  <properties>
+    <property name="libs.jsp-compiler.javadoc" value="" />
+    <property name="netbeans.autoupdate.country" value="FI" />
+    <property name="javac.test.classpath" value=":build/classes:C:\Program Files\NetBeans 8.0.1\platform\modules\ext\junit-4.10.jar:C:\Program Files\NetBeans 8.0.1\java\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.jsf20.maven-pom" value="" />
+    <property name="libs.DataBindingME.src" value="C:\Program Files\NetBeans 8.0.1\mobility\sources\netbeans_databindingme-src.zip" />
+    <property name="libs.junit.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\docs\junit-3.8.2-api.zip" />
+    <property name="libs.spring-webmvc4.0.src" value="" />
+    <property name="javac.includes" value="sample/UtilsJUnit3Test.java" />
+    <property name="ant.core.lib" value="C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="libs.jsp-compilation.javadoc" value="" />
+    <property name="user.dir" value="C:\Users\Aatu\Desktop\Junit" />
+    <property name="libs.javaee-api-7.0.src" value="" />
+    <property name="java.vm.version" value="25.20-b23" />
+    <property name="libs.DataBindingME.classpath" value="C:\Program Files\NetBeans 8.0.1\mobility\modules\ext\netbeans_databindingme.jar" />
+    <property name="libs.j2me_common_ant.src" value="" />
+    <property name="libs.MySQLDriver.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="libs.EclipseLink-GlassFish-v3.classpath" value="C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.antlr.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.asm.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.core.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.dbws.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.jpa.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.jpa.jpql.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.jpa.modelgen.processor.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.moxy.jar;C:\Program Files\glassfish-4.1\glassfish\modules\org.eclipse.persistence.oracle.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.persistence.jar" />
+    <property name="libs.javaee-web-api-6.0.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee-web-api-6.0.jar" />
+    <property name="libs.DataBindingME-PIM.maven-pom" value="" />
+    <property name="libs.Java-EE-GlassFish-v3-Prelude.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.8.0_20" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="libs.jpa2-persistence.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="libs.Java-EE-GlassFish-v3-Prelude.src" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="libs.javaee-endorsed-api-7.0.maven-pom" value="" />
+    <property name="libs.DataBindingME-SVG.javadoc" value="C:\Program Files\NetBeans 8.0.1\mobility\modules\docs\netbeans_databindingme_svg-api.zip" />
+    <property name="libs.restapi.javadoc" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.jstl.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jstl-api.jar" />
+    <property name="libs.testng.src" value="" />
+    <property name="libs.spring-webmvc3.0.src" value="" />
+    <property name="libs.restapi.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jaxrs-2.0\javax.ws.rs-api-2.0.jar" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="os.arch" value="amd64" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="Aatu" />
+    <property name="libs.jsf12.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.Comet-GlassFish-v3.javadoc" value="" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="libs.j2me_common_ant.maven-pom" value="" />
+    <property name="libs.spring-webmvc3.0.maven-pom" value="" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner sample.UtilsJUnit3Test skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Aatu\Desktop\Junit\build\test\results\TEST-sample.UtilsJUnit3Test.xml crashfile=C:\Users\Aatu\Desktop\Junit\build\junitvmwatcher707822422076261866.properties propsfile=C:\Users\Aatu\Desktop\Junit\build\junit6676538382553425650.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="libs.javaee-endorsed-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\docs\jaxws-api-doc.zip" />
+    <property name="libs.spring-webmvc4.0.javadoc" value="" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="FI" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="" />
+    <property name="libs.jsp-compilation-syscp.src" value="" />
+    <property name="libs.JAVADB_DRIVER_LABEL.src" value="" />
+    <property name="libs.spring-framework400.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-aspects-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-beans-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-build-src-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-context-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-context-support-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-core-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-expression-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-framework-bom-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-instrument-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-instrument-tomcat-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-jdbc-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-jms-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-messaging-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-orm-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-oxm-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-test-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-tx-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-web-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-webmvc-portlet-4.0.1.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-websocket-4.0.1.RELEASE.jar" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.home" value="C:\Program Files\NetBeans 8.0.1\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="libs.javaee-web-api-6.0.src" value="" />
+    <property name="libs.jsp-compilation-syscp.classpath" value="C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jstl-impl.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed" />
+    <property name="libs.Comet-GlassFish-v3.maven-pom" value="" />
+    <property name="libs.groovy-all.src" value="" />
+    <property name="test.includes" value="sample/UtilsJUnit3Test.java" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 8.0.1\platform\core\core.jar;C:\Program Files\NetBeans 8.0.1\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.0.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 8.0.1\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 8.0.1\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="libs.hibernate4-support.src" value="" />
+    <property name="libs.primefaces.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\primefaces\primefaces-5.0.jar" />
+    <property name="libs.javaee-api-6.0.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee-api-6.0.jar" />
+    <property name="libs.groovy-all.maven-pom" value="" />
+    <property name="netbeans.productversion" value="NetBeans IDE 8.0.1 (Build 201408251540)" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="do.archive" value="true" />
+    <property name="netbeans.autoupdate.language" value="fi" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="libs.javaee-api-6.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="libs.Java-EE-GlassFish-v3-Prelude.maven-pom" value="" />
+    <property name="javac.includesfile.binary" value="C:\Users\Aatu\Desktop\Junit\null623420665" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="javac.test.processorpath" value=":build/classes:C:\Program Files\NetBeans 8.0.1\platform\modules\ext\junit-4.10.jar:C:\Program Files\NetBeans 8.0.1\java\modules\ext\junit-3.8.2.jar" />
+    <property name="netbeans.buildnumber" value="201408251540" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="user.variant" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="ant.file.JunitTestit-impl" value="C:\Users\Aatu\Desktop\Junit\nbproject\build-impl.xml" />
+    <property name="libs.javaee-endorsed-api-7.0.src" value="" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 8.0.1\ide\docs\jaxb-api-doc.zip" />
+    <property name="libs.struts.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\antlr-2.7.2.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\bsf-2.3.0.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\commons-beanutils-1.8.0.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\commons-chain-1.2.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\commons-digester-1.8.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\commons-fileupload-1.1.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\commons-io-1.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\commons-logging-1.0.4.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\commons-validator-1.3.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\jstl-1.0.2.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\oro-2.0.8.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\standard-1.0.6.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-core-1.3.10.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-el-1.3.10.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-extras-1.3.10.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-faces-1.3.10.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-mailreader-dao-1.3.10.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-scripting-1.3.10.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-taglib-1.3.10.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\struts\struts-tiles-1.3.10.jar" />
+    <property name="javac.includes.binary" value="C:\Users\Aatu\Desktop\Junit\build\test\classes\sample\UtilsJUnit3Test.class" />
+    <property name="ant.home" value="C:\Program Files\NetBeans 8.0.1\extide\ant" />
+    <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 8.0.1\java\docs\junit-4.10-sources.jar" />
+    <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 8.0.1\platform\modules\ext\testng-6.8.1-dist.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\PC Connectivity Solution\;C:\Program Files (x86)\HP SimplePass 2011\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Broadcom\Broadcom 802.11\Driver;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.4.3\Doctrine extensions for PHP\;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\Skype\Phone\;." />
+    <property name="javadoc.author" value="false" />
+    <property name="libs.metro.maven-pom" value="" />
+    <property name="libs.EclipseLink-GlassFish-v3.src" value="" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.spring-framework400.src" value="" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="basedir" value="C:\Users\Aatu\Desktop\Junit" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="libs.javaee-web-api-7.0.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee-web-api-7.0.jar" />
+    <property name="path.separator" value=";" />
+    <property name="libs.javaee-web-api-6.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="libs.struts.src" value="" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="fi" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="libs.primefaces.javadoc" value="" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="run.test.classpath" value=":build/classes:C:\Program Files\NetBeans 8.0.1\platform\modules\ext\junit-4.10.jar:C:\Program Files\NetBeans 8.0.1\java\modules\ext\junit-3.8.2.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 8.0.1\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.hibernate4-persistence.maven-pom" value="" />
+    <property name="libs.DataBindingME-SVG.classpath" value="C:\Program Files\NetBeans 8.0.1\mobility\modules\ext\netbeans_databindingme_svg.jar" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Ade" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="52.0" />
+    <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="C:\Program Files\Java\jdk1.8.0_20\db\lib\derby.jar;C:\Program Files\Java\jdk1.8.0_20\db\lib\derbyclient.jar;C:\Program Files\Java\jdk1.8.0_20\db\lib\derbynet.jar" />
+    <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
+    <property name="libs.javaee-endorsed-api-6.0.src" value="" />
+    <property name="libs.eclipselink.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.jsp-compilation.maven-pom" value="" />
+    <property name="user.properties.file" value="C:\Users\Aatu\AppData\Roaming\NetBeans\8.0.1\build.properties" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 8.0.1\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.spring-webmvc4.0.maven-pom" value="" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="libs.jstl.src" value="" />
+    <property name="empty.dir" value="C:\Users\Aatu\Desktop\Junit\build\empty" />
+    <property name="version-output" value="java version &quot;1.8" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="libs.hibernate4-persistencemodelgen.src" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre" />
+    <property name="libs.jsp-compilation.src" value="" />
+    <property name="debug.test.classpath" value=":build/classes:C:\Program Files\NetBeans 8.0.1\platform\modules\ext\junit-4.10.jar:C:\Program Files\NetBeans 8.0.1\java\modules\ext\junit-3.8.2.jar:build/test/classes" />
+    <property name="libs.javaee-endorsed-api-6.0.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee6-endorsed\javax.annotation.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee6-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee6-endorsed\webservices-api-osgi.jar" />
+    <property name="libs.javaee-api-6.0.src" value="" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="libs.DataBindingME.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.restlib.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\asm-all-repackaged-2.2.0-b21.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\cglib-2.2.0-b21.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\guava-14.0.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\hk2-api-2.2.0-b21.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\hk2-locator-2.2.0-b21.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\hk2-utils-2.2.0-b21.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\javax.annotation-api-1.2.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\javax.inject-2.2.0-b21.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\javax.servlet-api-3.0.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\jaxb-api-2.2.7.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\jersey-entity-filtering-2.5.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\jersey-media-moxy-2.5.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\org.osgi.core-4.2.0.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\osgi-resource-locator-1.0.1.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\persistence-api-1.0.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\ext\validation-api-1.1.0.Final.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\jersey-client.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\jersey-common.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\jersey-container-servlet.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\jersey-container-servlet-core.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jersey2\jersey-server.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\eclipselink\eclipselink.jar" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.hibernate4-persistence.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|Ade" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\docs\junit-4.10-javadoc.jar" />
+    <property name="libs.EclipseLink-GlassFish-v3.maven-pom" value="" />
+    <property name="libs.javaee-web-api-6.0.maven-pom" value="" />
+    <property name="run.classpath" value=":build/classes" />
+    <property name="jna.boot.library.name" value="jnidispatch-410" />
+    <property name="libs.javaee-endorsed-api-6.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-api-7.0.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee-api-7.0.jar" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="libs.spring-webmvc3.0.javadoc" value="" />
+    <property name="libs.jpa2-persistence.maven-pom" value="" />
+    <property name="libs.hibernate4-support.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="libs.restapi.src" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="libs.j2me_common_ant.javadoc" value="" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="libs.jsp-compiler.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\ant\extra\jspcompile.jar" />
+    <property name="javac.processorpath" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="C:\Users\Aatu\Desktop\Junit\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="libs.hibernate4-support.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.jsf12.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-1_2\commons-beanutils.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-1_2\commons-collections.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-1_2\commons-digester.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-1_2\commons-logging.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-1_2\jsf-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-1_2\jsf-impl.jar" />
+    <property name="libs.Java-EE-GlassFish-v3-Prelude.classpath" value="C:\Program Files\glassfish-4.1\glassfish\modules\endorsed\javax.annotation-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\endorsed\jaxb-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\endorsed\webservices-api-osgi.jar;C:\Program Files\glassfish-4.1\glassfish\modules\bean-validator.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.batch-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.ejb-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.el.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.enterprise.concurrent-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.enterprise.concurrent.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.enterprise.deploy-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.faces.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.inject.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.interceptor-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.jms-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.json.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.mail.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.management.j2ee-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.persistence.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.resource-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.security.auth.message-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.security.jacc-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.servlet-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.servlet.jsp-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.servlet.jsp.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.servlet.jsp.jstl-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.servlet.jsp.jstl.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.transaction-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.websocket-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.ws.rs-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.xml.registry-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\javax.xml.rpc-api.jar;C:\Program Files\glassfish-4.1\glassfish\modules\jaxb-osgi.jar;C:\Program Files\glassfish-4.1\glassfish\modules\webservices-osgi.jar;C:\Program Files\glassfish-4.1\glassfish\modules\weld-osgi-bundle.jar;C:\Program Files\glassfish-4.1\mq\lib\jaxm-api.jar" />
+    <property name="libs.jstl.maven-pom" value="" />
+    <property name="libs.restapi.maven-pom" value="" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.DataBindingME-PIM.javadoc" value="C:\Program Files\NetBeans 8.0.1\mobility\modules\docs\netbeans_databindingme_pim-api.zip" />
+    <property name="libs.swing-layout.src" value="C:\Program Files\NetBeans 8.0.1\platform\docs\swing-layout-1.0.4-src.zip" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="netbeans.user" value="C:\Users\Aatu\AppData\Roaming\NetBeans\8.0.1" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\Aatu\AppData\Local\Temp\" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="junit.available" value="true" />
+    <property name="libs.jsp-compiler.src" value="" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="debug.classpath" value=":build/classes" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="libs.jsf20.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-2_2\javax.faces.jar" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="libs.DataBindingME-SVG.src" value="C:\Program Files\NetBeans 8.0.1\mobility\sources\netbeans_databindingme_svg-src.zip" />
+    <property name="dist.jar" value="dist/JunitTestit.jar" />
+    <property name="libs.spring-framework400.maven-pom" value="" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.name" value="JunitTestit" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_JC_MOB_PHP_WEBCOMMON_WEBEE0e6f0b75f-f80a-465e-a601-492e5b1610f4_a70d9de4-b91f-4fe0-b6c3-055e8239abd9" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\Aatu\AppData\Roaming\NetBeans" />
+    <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="libs.spring-framework400.javadoc" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.DataBindingME-PIM.classpath" value="C:\Program Files\NetBeans 8.0.1\mobility\modules\ext\netbeans_databindingme_pim.jar" />
+    <property name="user.home" value="C:\Users\Aatu" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="libs.primefaces.maven-pom" value="" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.javaee-api-6.0.maven-pom" value="" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\nb-javac-api.jar" />
+    <property name="java.version" value="1.8.0_20" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="platform.java" value="C:\Program Files\Java\jdk1.8.0_20\jre/bin/java" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="ant.file.type.JunitTestit" value="file" />
+    <property name="libs.jsp-compilation-syscp.javadoc" value="" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="libs.javaee-endorsed-api-7.0.classpath" value="C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee7-endorsed\javax.annotation-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee7-endorsed\javax.xml.soap-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee7-endorsed\jaxb-api-osgi.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee7-endorsed\jaxws-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\javaee7-endorsed\jsr181-api.jar" />
+    <property name="libs.metro.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\metro-1.4-doc.zip" />
+    <property name="libs.struts.maven-pom" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="work.dir" value="C:\Users\Aatu\Desktop\Junit" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="php.global.include.path" value="" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.j2me_common_ant.classpath" value="C:\Program Files\NetBeans 8.0.1\mobility\modules\org-netbeans-modules-j2me-common-ant.jar;C:\Program Files\NetBeans 8.0.1\java\modules\org-netbeans-modules-classfile.jar" />
+    <property name="libs.spring-webmvc3.0.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files\NetBeans 8.0.1\platform\modules\ext\swing-layout-1.0.4.jar" />
+    <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
+    <property name="libs.restlib.src" value="" />
+    <property name="javac.source" value="1.5" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_20\jre\classes" />
+    <property name="ant.file.type.JunitTestit-impl" value="file" />
+    <property name="javac.target" value="1.5" />
+    <property name="built-jar.properties" value="C:\Users\Aatu\Desktop\Junit\build\built-jar.properties" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="libs.jpa2-persistence.src" value="" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jsf20.src" value="" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="libs.jsf12.src" value="" />
+    <property name="libs.DataBindingME-SVG.maven-pom" value="" />
+    <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
+    <property name="libs.struts.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\struts-1.3.10-javadoc.zip" />
+    <property name="libs.Comet-GlassFish-v3.classpath" value="" />
+    <property name="libs.javaee-web-api-7.0.src" value="" />
+    <property name="libs.primefaces.src" value="" />
+    <property name="dist.dir" value="dist" />
+    <property name="libs.groovy-all.javadoc" value="" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.fork" value="false" />
+    <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans 8.0.1\groovy\modules\ext\groovy-all.jar" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.8" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="java.runtime.version" value="1.8.0_20-b26" />
+    <property name="default.javac.target" value="1.8" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans 8.0.1\platform\modules\ext\junit-4.10.jar" />
+    <property name="user.timezone" value="Europe/Helsinki" />
+    <property name="nb.junit.single" value="false" />
+    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
+    <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
+    <property name="netbeans.dirs" value="C:\Program Files\NetBeans 8.0.1\nb;C:\Program Files\NetBeans 8.0.1\ergonomics;C:\Program Files\NetBeans 8.0.1\ide;C:\Program Files\NetBeans 8.0.1\extide;C:\Program Files\NetBeans 8.0.1\java;C:\Program Files\NetBeans 8.0.1\apisupport;C:\Program Files\NetBeans 8.0.1\webcommon;C:\Program Files\NetBeans 8.0.1\websvccommon;C:\Program Files\NetBeans 8.0.1\enterprise;C:\Program Files\NetBeans 8.0.1\mobility;C:\Program Files\NetBeans 8.0.1\profiler;C:\Program Files\NetBeans 8.0.1\python;C:\Program Files\NetBeans 8.0.1\php;C:\Program Files\NetBeans 8.0.1\identity;C:\Program Files\NetBeans 8.0.1\harness;C:\Program Files\NetBeans 8.0.1\cnd;C:\Program Files\NetBeans 8.0.1\dlight;C:\Program Files\NetBeans 8.0.1\groovy;C:\Program Files\NetBeans 8.0.1\extra;C:\Program Files\NetBeans 8.0.1\javacard;C:\Program Files\NetBeans 8.0.1\javafx" />
+    <property name="libs.jstl.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.jsf20.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="libs.metro.src" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="libs.metro.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\metro\webservices-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\metro\webservices-extra-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\metro\webservices-extra.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\metro\webservices-rt.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\metro\webservices-tools.jar" />
+    <property name="libs.restlib.maven-pom" value="" />
+    <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.DataBindingME.javadoc" value="C:\Program Files\NetBeans 8.0.1\mobility\modules\docs\netbeans_databindingme-api.zip" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="java.class.path" value="C:\Users\Aatu\Desktop\Junit\build\classes;C:\Program Files\NetBeans 8.0.1\platform\modules\ext\junit-4.10.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\junit-3.8.2.jar;C:\Users\Aatu\Desktop\Junit\build\test\classes;C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant-junit4.jar" />
+    <property name="do.mkdist" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
+    <property name="os.version" value="6.1" />
+    <property name="ant.file.JunitTestit" value="C:\Users\Aatu\Desktop\Junit\build.xml" />
+    <property name="application.args" value="" />
+    <property name="libs.EclipseLink-GlassFish-v3.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.javaee-api-7.0.maven-pom" value="" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.hibernate4-persistence.src" value="" />
+    <property name="libs.hibernate4-support.maven-pom" value="" />
+    <property name="libs.Comet-GlassFish-v3.src" value="" />
+    <property name="libs.restlib.javadoc" value="" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="nb.internal.action.name" value="run.single" />
+    <property name="libs.javaee-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\eclipselink\eclipselink.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 8.0.1\java\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans 8.0.1\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-aop-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-aspects-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-beans-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-build-src-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-context-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-context-support-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-core-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-expression-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-framework-bom-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-instrument-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-jdbc-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-jms-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-orm-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-oxm-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-struts-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-test-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-tx-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-web-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.7.RELEASE.jar" />
+    <property name="libs.jsp-compiler.maven-pom" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.hibernate4-persistence.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans 8.0.1\platform\docs\testng-6.8.1-javadoc.zip" />
+    <property name="libs.DataBindingME-PIM.src" value="C:\Program Files\NetBeans 8.0.1\mobility\sources\netbeans_databindingme_pim-src.zip" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans 8.0.1\ide\modules\ext\postgresql-9.2-1002.jdbc4.jar" />
+    <property name="user.script" value="" />
+    <property name="libs.jsf12.maven-pom" value="" />
+    <property name="libs.hibernate4-persistencemodelgen.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\hibernate4\hibernate-jpamodelgen-4.3.1.Final.jar" />
+    <property name="libs.junit.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="libs.jsp-compilation.classpath" value="C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\servlet3.1-jsp2.3-api.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\glassfish-jspparser-4.0.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jsf-2_2\javax.faces.jar;C:\Program Files\NetBeans 8.0.1\enterprise\modules\ext\jstl-api.jar;C:\Program Files\NetBeans 8.0.1\extide\ant\lib\ant-launcher.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="libs.spring-webmvc4.0.classpath" value="C:\Program Files\NetBeans 8.0.1\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.0.1\enterprise\docs\javaee-doc-api.jar" />
+  </properties>
+  <testcase classname="sample.UtilsJUnit3Test" name="testHelloWorld" time="0.015" />
+  <testcase classname="sample.UtilsJUnit3Test" name="testWithTimeout" time="1.014" />
+  <testcase classname="sample.UtilsJUnit3Test" name="testExpectedException" time="0.0" />
+  <system-out><![CDATA[* UtilsJUnit3Test: setUp() method
+* UtilsJUnit3Test: test method 1 - testHelloWorld()
+* UtilsJUnit3Test: tearDown() method
+* UtilsJUnit3Test: setUp() method
+* UtilsJUnit3Test: test method 2 - testWithTimeout()
+computing 7014!
+7014! = 6087421662318851170570952059120046795750376818581622135213064498400069210750306799277874742165716661578413251773682389031459663692140209643101873473029094987885579838872378149020480095463927251729529015627423722853932880704351938415426567927496509640210283075517282127293758750642776849831292271948058156019217863081412968093231329272742528742713230835532235840271553417959068246186465024444712321224562975904293635887346401305910271921615592691997090021825060638815080926599334708158899125625281473481281802334909527215932806871544718525993488426975255341845984865355894837453667109541135222273463028032535998074319342000763184213301398004253327708031896871262062692265953505946444442330903824600838312250599212531058966233008252068512545040962574090950241275978200084324954560228759720505588863311465264830936262125641916228248195033045466377940667782678656175110173514691540158690538823428061413065668451473202425012112695206622420118401018245103123139358824620848975357734989950685002741519917005985567328269729627220855703260060059803812199743035832357502945449886447244781339505100728267749943839996660552124768061860382203967209233410007808329448517281918458693064256939239740626207096086082538889956723700430022843776591067849900570745388367358970892717897593947301500194041694478444867039493403622234487855947204018018795013758467296047581192505597874835806507626362256085841939391196295202368942307783196195130972748690231260759208848461227797461539722756209983037109866830233820246221357993906264861138778123554993956856226647202150041686865191034397693953686960252067090747931918056870046110304708265636188167087357184682901031231816705108284673815543688837568009201547460657606517477186942376963503202158450868382098191965235741208196879946043443668937224855706236150659804939818056894745159557918487871902220042666118670274146942412778699139643222190343110810007763565247892199429915563469178802647439976565085075760202046123283533318116433561594836354692524034008068598350880536208582960558593589310245352042207889951873014899337006631190941142666693366129214237924679774359547985050140037457937477290483320522593822918275871519503206106528901135130976529254457934546715305533689198950954569944194188729951353247587747051990848666064830150203702623233386232226903093956551172917815262449138464907393598989855342442677192600029220282872901412957687993330540357442046956381465628637448498842847650745139035055346601511266900773190894271674253672722635874238584955634163899814210690378252921540468841436509553896299168705408067234159402000680693830271865641945249172752564568585689550569343746803303460739511813497048131266899470882427461107695754988850353296783254181083019355158846305467491172901812836505080318587287393448976971551513211998010183825909869897004752160531207368642280897199860031377039465743229706383118425011121202998923152004502346275677866455891895654503265909412641586802606058017994738348261473892656427619790292626442111070378133585141718196067182371605737418124550366487207149875696812801877015968596910370755138397366776623664786328877921424350384358028624499606318429351032998041331846718699161072793630249793062485627084456811996059003660351595770078501382732102506666941121706527623560820719079990067543091168420342862716310524858428329567315994272891235872137875160688882743542611652812258412521773549701734871576712562893074727818890018801988028460210366655982141686003473234431168470579553792169237901560217914273174033701579458869812743363176736871039704748918334075697941414389863889511985585858814763702280153057984303807682244301748074433261901992568647807174614273382686118983484455736253322481943549643060307464058241171861858227372099298214118636670731246662135088404667596464973282080920300647739405027501877303287432592831465253932551428126106076468143842270212969730693840336600943409286441402103044225602106986012093963592242809713035272081375840516438952731072321029133895448893684444706841116554430456520099593654484065259433488175727024068673953975095401381165038497149163888987140401130465051990978374100326044388207571697003224735025737455546123965507894302304223627481660176222928486310415684630669286487337784235852576991974108041842287015681103000635103543632173429429117202028833097394278693975527360426489313943775933045421135965655333886786839352899101683771059006115921124357947060544055402259329892446224856587190223202859101199112074600667776551996018891506271228200102460324489003628164963035576913662465488533045767741592135005017917008767939733586695341855487662469637970497923639375424618744029941146652044025576950394785739628776371513041657177033785417447019455730963102751726973382506021389079575805198412102879706229370728460881812462634057286131751573151808426493053810215265795841426935504512533162942637512779104944286992591379218070164776238347293770900077872091211022370527178250948704032744113436892545269295712024935095990627902373871070505951136836610307767640196054028099029654184940759014089538186766109783173538282289700398951323497783069338036566629156245586641464718529647391311196208895158397598337415778683568690052623409378599337694523954116872956941228681673217963595922602507868967320807612928135089650917638117609883583006850487193640543712212011867420273062285491717576411799021822466862162726375163683368337811708647777169804038651572919098395474071720360370367565162914083707182507384139869159971913840237245378270097809737425557378895600846120693057969929255322225711233289581795559386842903545329746839177931678139569886752899867887964451224627498107725340242158807497025664884731646520899881789581177582555689845664831078922000782202407349264583339152977165618921802542294013940110880916752242090350976265811650187614715195532168989127839379882521184515827007799870822111402168568696204238226901188732318383872581064620797684978428639703671931095454232473179710064480878713899477122965248287536677097462786192391400329009786693546473806118804432472087880334643343645153560309034076577881735675423534632400183956217748185656956357889929283070148643081147218717162166358245106520704629901286790347818857967356914962515583023188752852077689483360087136425913060268745744648912669238526597640524720984472011700243935643067466462819000705679341125951184540183206293906856192582147365271178240477706952009421633856906501128658639669542368562071277148334489587179415134180763651902269464218370840984576808543694408738718044753481670040566244963285341107838072795328687586691323113591821760328624063980558281877606919743599575688413166515489841709816902698079198720106152132250756310495099391704246264585787589247213629994355328495566611882703898388568740808611870939164691226497902637546662603943520516313080698595637706182908627805958203497621807899655340896140451096292751041689088197990311073863337729608862504384135342317500847374219766794049865379532570028973129109753358033841460594808483806238301931483122727262862829079884308756888893674746185584012343327219167161541766057939818808795156291649802865466962481652482277170981351264592339537286923327551006440704866808272002575291264808729349832302439572679521480329276317947854476948035044510376436002535402024735978788679456808597479363136907363933668586668086093973409018557777242119941858351740268637717003244899551806283585734795678544889043740458950047083579797397487218987104747654337347698184729963804264103179588251534981178546611846540819262512290625262515917681734899139793729051728090737621899413537660147328820026223402916298714571950560197417080630652542431594211476499702686541416115553509823596296866067397313587200192458701286269508095984285859166227459730782000711385837087729588396856910568784526517058438049081060335384329907357279704444651389402928695877078325741845236084969508092199137985081408864953346299730096809815771511872354590704103733665083217787019112975326574203849021749021431718396057383281059207456942747602566206454160362140846582049322903702671398779745709353356664659358037361532778021854926739165065019995927606751662178069556299583851263136342839266059835423990390253223173449920619298306812183511977797757721794294898079027073372396156591776703803955598262039098496888351592023293355612516253188037262248765019982846483229422237244140956142714033315477779976813670931756092550861081028986957398289770368669037534258267454167073366212769881438076314532807115637039475564865028632374060163948862301745099413919406656102616201887836885127378550256635201196599135325349157106389638725159574230107805951183155174446429009100406934027693999524386820825159720600932122115561147879694394065360804602831907375927464783243132476293569314620924053166500922802792491216346528569557377785978254701715765830891037738583943227290766961220960774364816433843756879947556273253325338094420698414003645572014433606554961602518794228808855185969272542552044398105463401024788968534058148366250744977303284105529631084503642116053862589694326239154834478861950392935191678859075013872307073279137957080651048964145254854967555701316130266509191429885929635678174414886675392790012518446877620705080516893833224494421015088261895393036697401343522540221444382692768513753654794774327051692371857688916097337558318496588035951129294245918295833245521124106825099876882539980590265499528916068101401939296741199299883895339002745765460667403381571237992073126849571129330583549375206068513549673993446912091712598440265009700892443378110948485577557541277976715254591613091739980248445026834010802123994613274672268636377925102484954293607493868638005709616773691750938411114693702197191676705143761591547097102429386803501499924460081102963775021299977684028577025348135688368319954363588025231151606976162176864009563610360099382076968873329244277184824717539907313802679271769861841055777232028578301465139353457579152556203926348856261543144707216190006545255387298822984679591164077349588782078873422833721767386267856427058786801516097864258184135945273320383618138867510149621121053184549433234066099484293696894909146191765069915734715745095142328650733938250971275063312192321371620353041402621014463255656364673535979488581654708273473723951297967890034577747555552681825657023355610273556392160298446626501263516988635586621051144449354597283055812447146501497305895531896986101188398960245109111445765428344745413534371478507296902997705152162100348448320660185997714794537193116996910250798242423153721340364590879729374098790180734926732655380280348995732502861112211726559024708929002255754101471087964868464867781272042777957736854797701422837412366018639094232104099354920671972389804706683690864828888537786177619468263213880836911452482416320755468230993507342351050792361647934162118369489815052724124378540985120272214374400754456849835365570761048311884322807676627670593194684345566805407468788456480981670718627829640273047355827989448916634298397987383191264437058905241023050741868099110960817025620964282554359225102271758543249281262119877217962459594830046725844913283590725852861991046164144331564647027871440741721856460447955957919682141974543492555146486560647265046798433468166703326203840419189937547429175473249087952980728675389793548449618756742479153559706683525516429931889211043776520729984906118305417519516493729326406272917620599504996890833654814965542536158729080489795241680565046407592452315760136636161505540799691042840751279701802641850402623347419199860680048906538328243343541488084318946854806404155884779500985127809437458045723891787599303253561926390750370093647296588751065702093239634420592494847139465873499523685610312672897061044872857011436974276089776019490049209144536929009066505656584905544184961073187710172728797544611257136237460244751174222448542532391235671055356555785264666116588178315568595768060201729177645961259807270886077625945833063537493952337074484020374395965038294094545384933434439172876255541742982132172961325561582286604886406305060387306634691226691328942110567496053410441160037140943353070703182884797912362130873957756173962036043616752600325517724582616083409292027324942328070224583323026831412696729599232678785275367835414157588126849192804469493216928979138546491870638198540121922569222485579752075762365460615971272966330107281680762311581367813766010194082225416167808767340987458835465846948290917299459675288039163629729513239653169961534427428433925134780018006474277017237257856969806137163553111560900670520552876377043316353621619521276380615345611195456822029219879021684650650975134252501008705564068073204583404029441069589909766120977432768313612969995489288885022805644810376574728032635038035273207100957028401426960561378784175995302765136784741081397495384475500693250614588307442076996027363711496158289417264663214558467490223859950836108937229672545228428302022817261734646179041104603325622037135832426545931290161532481262101347575519398969377404049906347575351078281404454994749289748524124176975904629733276917666637019949458702299764904564243590553000574688828286273559384634437838826287846107819360087835295826751036008965844349418590931673354748953736396446820722991530388112370830264835884535632840539093920776704756454177585445504551403430851079621986784013265180796860254051815486773590688929241650497584379706772454449234772322629962878925460736547890686671191710676742070966098071359817092505962839868296984451985872901859734583386842313205925693221404061450596267002881215161847821182250868992562450539760016500643656501189012614023132616694920060690557554420340135360948167289459065810868892549559310887011347771910893326335601816577401841197494600515470732154672055934949658775961872810882556886674187155439718569697299557346379212609732871083100539772571834584984719749902804430249187828065155170103129285226785844404997836696515698085462046763319261821390678809147312850109612718021458113702668023435331529482915863617448959531310299237371832280370613423026197599642253731494552518488470132601029662193417960400446672852853917238645091843098728119733092987650996589683335601338562196791305530194604488995377308066304016654776186239365240905697592766259182057459311895616724901550179455211945077417314863983734086653001857647846140697206745077589317584695633063466745276444944039452692022508552200200826547103818011275268337628444763945153172198543915479958840004521541379419404562910851597104818365766235222553684372133585537350570807836822344393794799874248867665178020168173744028077280154866367430061642985267164021203685523877754597662500764142014674957552402360096485569489370462268434211085923670627227045712960868068403710776580785963245938252473046587818225327263710710675607617555353558303507410408341650547643001750476555912525716786562353510739053975446349336643037954331385102658541442627710924595418380932036558934858438235403829033077667136068873869614554648244434236979331220548882223542272160073213225950202946649542842397970343050467688187469177970876860784697259825038731764534466720642432446303912110753520672530559669317676538642296039874917606180928331931761744293661605453542715417695354667091626979721753442536255692189485267948804981835683588499193600293682843216349428767536810547628489467855506570885230266993119475808051009394649429590862653026776569567358756696166106034922848838497865403792590999666886175022254774079363526045495043951887017568208403471940530659417136991966176693284805202294059993344069965899114663178713405991517292450338095151768704511950687447982385720381037955978424367715294103653796728098821841452641770177076684605520035003694097574158500136287651985255281260533817341522288365215646211480439253930157059618131637360797785494630315130036821512087147886022282119009750304053679725572022440635139179515978422498817442417516051167940580349149171089461437809358204561862678205334839456750567585053641836328850845082025214672609710550842941196191528805836605157322869960417394493854354179882122404050734250705015044049678241948529575430500142626278276929826717882360706695420719276817204353822979670857727867414469503974029447999414445038232017963584810202259496252632809366627902284969331481546335830981138425892718862666123204196873587254532987032314123520638097235666592694388327943877724986759926763762499403333189495517150890618127210190840340278721126495093090609555670916166605509231903811459079377612710833317350498603188647212153823193158256835624860260623832145656854874479281138261885886548083392087184908522207623964627100927871373240450357177351274130566263025275088822023875166248353564098449813932811068586253161151225746190776791544443700044491570681488902572604084981331175831470522925860500151187017559334412078982341726361147595252683512997843415810723166784609744278995213622358938129358499018534189272237800698492122779221712830295955222161406260233281496916999282812874457832625355436823636671605541459386421872414456954492727714543668377575816446779912504441520046464480771277674330743539806025742442599133557732782893308020268932570086913982599670423030964154435012081480538127388388091233369503663591949790229834849031232475575904065950268342635019639548099318337323975699502371055631914502465569622772879512573010955575595506260906728786825230857876563868050801137134395682242910075389459478150692029765405394174173197367698643245184236406545998511742984708851870643248944808592502464202711054324419070382767156594982328358185737931764001484631285640619149411452297807772454407491714167074196159498085511983180911587238027773579089476158927104398023770352733532796254284661076572983218471659506293120701256681111283499345032402264789821290952462822716326961792998543713989834707033022089813975199240348709871328072098586459485714181109036296572436316661611898039741722636634162660945063457763935120621748329013608574475926953455806063372003907775504442057038216002425248529578332286337538712312052378631013831586609359665769298468810544096090019714171994305401858792833419842113486067813068677094025516310879185738504722965605061549504315180905212102956601131587284385748390787641058244566307771758109750007468574012671903415221500349574922377290501272483472235580398334389392338460767422666813559239086381431514344668178850692097056738031445315788745338538546100119346174976636008526189779786846490306110607643372124837292183771069302958116450970343898058663197387960854136967262869263066207226612209293939396673720430353416932732797806938364247908232284379169091186869497245786685910045043921948258686459655685281316729343624898548755299057668082422138308363264602830948836300570896286190240582507686865731295185809377125387099190892034087560028524059506444636557881735803995113124488211447226883424640039583510460560718156179569061542776602978999188967581782646350647662131475143273555255729123357501657206127321950202262121010884072721724802904168025866734868071281802049393205697933251253709200594044754590727796011051014633221058489520742931727430197153539564544726076867264709252153196296924455787536390078555479456813595928325016671116075599795415915849055112485832387730037828597393887948476132277808905415907468339234704527258762361231657646358824420038297196437417878198684253739264780048922486266503063947734528463743417440502545243998956064453592510036503617837929403834862289641387522419452472321060116289365151575622121510419519183552412630401754362514486198130762641636204605811844297663521408278166144199419338588631428824067219190475998432540249530581939166846537476488297699605618392091917961549840678238965415010625798347495469119663973809583961164638586327689633158640158478658909258111492496603277660403797949836870938210909131739122319657202651060707511961450203903956287387940162240518281279356015106075809653578398806650415886368838043517881493307996998653699998360128478418333295421439908195794497052321078027317356395912436472339003880805513571965072628995017409948614177227434922284053208695049568475960015902868903792196188192684385409015866634274702582586494648620334372655431555898454044534378217617939704204277823148331135678235815898266374235305015827281988973140921410440814037176781412832430393173550142370658975900392943851692938429298191436418135260011532550585559304644823371221985908368859257251578806371512820059551522134251517176262008087605903454337244399138476507181240873281919973906838056109879474746946703156697959584170600357609612626584129800406476265890805129213961819537521135399735087396703850072233979472855524584358275138820179842856751660465604430489781581080504369689886276299240121901983378711038451669840565985357208370456984944130601704350868387738508910029805868763529775758655346735836834831319004288376918769068853309417979963509973886582701135415722644528081049739921242942119893957206555782737746027540367448045514718483376710156527593994566750556123906974010783517382576425411536798421971344728600095698621982280037907679728711272864505195911961232778073301351145990931377617110441876579888655727143318038884397810674120209095538330854259406154266549015325638724590291775159521222560637966058564498268389538015728081819852159535855342093064484918657482507765020571446424945015507110749811390341412395423074790852446886368895298436528796532108682767305206158803033153204372283493543256866326623041165980925517813738265275840883505018240848059650552666621902976151093829102473767611360647774683977732523260950832928531613320405565748461658051995192610638912842433128328515734458793614524302728203992009806124739554148356547495471771042887302247618315573998637555520467027299549857149488871901407387501032576757295315046440172502945412725306034571140830247725808961133062653339665317928297288449719905958549855921890299231493036746603226845082394023530420358133135789042108816729065195376253673452134052751369819940619724352329061991794248448734946944268092650819265310775856879215718172957178582317058351916623681130178446831230120735494398989003394075083643035205245289736220440256807201763218620277648101496217467983449407500012168353097160697628069888816982734169215407402242786937894142708248926547884474160033725536375383150626593116392174902895094601329868906068683280379419352840971469405406701989533934386488118337345742016713970456986870474619984634515764225075372374237689199475944918418421580062462254598719003440394564017114316800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+* UtilsJUnit3Test: tearDown() method
+* UtilsJUnit3Test: setUp() method
+* UtilsJUnit3Test: test method 3 - testExpectedException()
+* UtilsJUnit3Test: tearDown() method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
